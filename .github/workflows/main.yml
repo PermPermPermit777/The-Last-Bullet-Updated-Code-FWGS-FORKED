@@ -101,7 +101,7 @@ jobs:
         with:
           name: android-${{ matrix.arch.abi }}-artifacts
           path: |
-            build-${{ matrix.arch.abi }}/cl_dll/*.so
+            build-${{ matrix.arch.abi }}/cl_dlls/*.so
             build-${{ matrix.arch.abi }}/dlls/*.so
           retention-days: 30
 
